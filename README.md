@@ -10,18 +10,15 @@ type 'help' for instructions
    To Start Program:       python contact.py
    To Quit Program:        quit
    To Display Help:        help
+   
    To Create Contact:      add NAME
+           NAME is a string (can include spaces)
    To Delete Contact:      del NAME
    To Edit Contact:        edit NAME
-
-   To Search Contacts:     search KEY
-           KEY is a string,
-           
-                   seperated by :
    To List Contacts:       list 
+   To Search Contacts:     search KEY
+           KEY is a string (can include spaces)
+   
 
-   Stretch Goals:
-   Sort by ATTRIBUTES
-   Email
-   Text
-   Reminders
+
+Screenshots show command execution on my Windows 10 machine.
