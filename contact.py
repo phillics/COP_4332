@@ -43,7 +43,7 @@ def add(inList = []):
     else:
         print("adding " + inList[1] + " to contacts")
         cfile = open("contacts.txt", "a")
-        cfile.write(inList[1] + "\n")
+        cfile.write(inList[1] + ":::\n")
         cfile.close()
 
 def delete(inList = []):
